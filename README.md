@@ -1,16 +1,28 @@
-# biblioteca_desafio
+# Projeto Flutter Exemplo
 
-A new Flutter project.
+Este é um projeto Flutter simples de uma Biblioteca virtual onde é possível baixar, ler livros e marcar seus livros favoritos.
 
-## Getting Started
+## Como Baixar e Rodar o Projeto
 
-This project is a starting point for a Flutter application.
+Certifique-se de ter o [Flutter SDK](https://flutter.dev/docs/get-started/install) instalado no seu sistema.
 
-A few resources to get you started if this is your first Flutter project:
+### Passo 1: Clone o Repositório
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Abra o terminal e execute o seguinte comando para clonar o repositório:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+```bash
+git clone https://github.com/joaoygo/biblioteca_desafio.git
+```
+
+### Passo 2: Navegue até o Diretório do Projeto
+```bash
+cd biblioteca_desafio
+```
+
+### Passo 3: Execute o Projeto
+
+```
+flutter run
+```
+
