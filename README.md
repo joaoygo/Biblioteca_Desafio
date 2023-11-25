@@ -8,8 +8,8 @@ Certifique-se de ter o [Flutter SDK](https://flutter.dev/docs/get-started/instal
 
 ## Capturas de Tela
 
-![Tela de Home]([https://github.com/joaoygo/prova_flutter/blob/main/prints/TelaDeLogin.png](https://github.com/joaoygo/biblioteca_desafio/blob/main/prints/tela_home.png))
-![Tela de Favoritos]([https://github.com/joaoygo/prova_flutter/blob/main/prints/TelaDeListagem.png](https://github.com/joaoygo/biblioteca_desafio/blob/main/prints/tela_favoritos.png))
+![Tela de Home](https://github.com/joaoygo/biblioteca_desafio/blob/main/prints/tela_home.png)
+![Tela de Favoritos](https://github.com/joaoygo/biblioteca_desafio/blob/main/prints/tela_favoritos.png)
 
 ## Recursos
 
