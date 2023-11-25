@@ -49,6 +49,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
+  device_info_plus:
+    dependency: "direct main"
+    description:
+      name: device_info_plus
+      sha256: "0042cb3b2a76413ea5f8a2b40cec2a33e01d0c937e91f0f7c211fde4f7739ba6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.1.1"
+  device_info_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: device_info_plus_platform_interface
+      sha256: d3b01d5868b50ae571cd1dc6e502fc94d956b665756180f7b16ead09e836fd64
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
+  dio:
+    dependency: "direct main"
+    description:
+      name: dio
+      sha256: "01870acd87986f768e0c09cc4d7a19a59d814af7b34cbeb0b437d2c33bdfea4c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.3.4"
   fake_async:
     dependency: transitive
     description:
@@ -65,6 +89,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  file:
+    dependency: transitive
+    description:
+      name: file
+      sha256: "5fc22d7c25582e38ad9a8515372cd9a93834027aacf1801cf01164dac0ffa08c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -80,6 +112,11 @@ packages:
     version: "2.0.2"
   flutter_test:
     dependency: "direct dev"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -140,7 +177,7 @@ packages:
     source: hosted
     version: "1.8.3"
   path_provider:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path_provider
       sha256: a1aa8aaa2542a6bc57e381f132af822420216c80d4781f7aa085ca3229208aaa
@@ -187,6 +224,54 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.1"
+  permission_handler:
+    dependency: "direct main"
+    description:
+      name: permission_handler
+      sha256: "860c6b871c94c78e202dc69546d4d8fd84bd59faeb36f8fb9888668a53ff4f78"
+      url: "https://pub.dev"
+    source: hosted
+    version: "11.1.0"
+  permission_handler_android:
+    dependency: transitive
+    description:
+      name: permission_handler_android
+      sha256: "2f1bec180ee2f5665c22faada971a8f024761f632e93ddc23310487df52dcfa6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "12.0.1"
+  permission_handler_apple:
+    dependency: transitive
+    description:
+      name: permission_handler_apple
+      sha256: "1a816084338ada8d574b1cb48390e6e8b19305d5120fe3a37c98825bacc78306"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.2.0"
+  permission_handler_html:
+    dependency: transitive
+    description:
+      name: permission_handler_html
+      sha256: d96ff56a757b7f04fa825c469d296c5aebc55f743e87bd639fef91a466a24da8
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0+1"
+  permission_handler_platform_interface:
+    dependency: transitive
+    description:
+      name: permission_handler_platform_interface
+      sha256: d87349312f7eaf6ce0adaf668daf700ac5b06af84338bd8b8574dfbd93ffe1a1
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.2"
+  permission_handler_windows:
+    dependency: transitive
+    description:
+      name: permission_handler_windows
+      sha256: "1e8640c1e39121128da6b816d236e714d2cf17fac5a105dd6acdd3403a628004"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
   platform:
     dependency: transitive
     description:
@@ -203,6 +288,62 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.7"
+  shared_preferences:
+    dependency: "direct main"
+    description:
+      name: shared_preferences
+      sha256: "81429e4481e1ccfb51ede496e916348668fd0921627779233bd24cc3ff6abd02"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.2"
+  shared_preferences_android:
+    dependency: transitive
+    description:
+      name: shared_preferences_android
+      sha256: "8568a389334b6e83415b6aae55378e158fbc2314e074983362d20c562780fb06"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.1"
+  shared_preferences_foundation:
+    dependency: transitive
+    description:
+      name: shared_preferences_foundation
+      sha256: "7bf53a9f2d007329ee6f3df7268fd498f8373602f943c975598bbb34649b62a7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.4"
+  shared_preferences_linux:
+    dependency: transitive
+    description:
+      name: shared_preferences_linux
+      sha256: "9f2cbcf46d4270ea8be39fa156d86379077c8a5228d9dfdb1164ae0bb93f1faa"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.2"
+  shared_preferences_platform_interface:
+    dependency: transitive
+    description:
+      name: shared_preferences_platform_interface
+      sha256: d4ec5fc9ebb2f2e056c617112aa75dcf92fc2e4faaf2ae999caa297473f75d8a
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.1"
+  shared_preferences_web:
+    dependency: transitive
+    description:
+      name: shared_preferences_web
+      sha256: "7b15ffb9387ea3e237bb7a66b8a23d2147663d391cafc5c8f37b2e7b4bde5d21"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.2"
+  shared_preferences_windows:
+    dependency: transitive
+    description:
+      name: shared_preferences_windows
+      sha256: "841ad54f3c8381c480d0c9b508b89a34036f512482c407e6df7a9c4aa2ef8f59"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.2"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -296,6 +437,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.1.0"
+  win32_registry:
+    dependency: transitive
+    description:
+      name: win32_registry
+      sha256: "41fd8a189940d8696b1b810efb9abcf60827b6cbfab90b0c43e8439e3a39d85a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.2"
   xdg_directories:
     dependency: transitive
     description:
@@ -306,4 +455,4 @@ packages:
     version: "1.0.3"
 sdks:
   dart: ">=3.2.0 <4.0.0"
-  flutter: ">=3.7.0"
+  flutter: ">=3.16.0"
