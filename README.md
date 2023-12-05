@@ -6,6 +6,16 @@ Este é um projeto Flutter simples de uma Biblioteca virtual onde é possível b
 
 Certifique-se de ter o [Flutter SDK](https://flutter.dev/docs/get-started/install) instalado no seu sistema.
 
+## Capturas de Tela
+
+![Tela de Home](https://github.com/joaoygo/biblioteca_desafio/blob/main/prints/tela_home.png)
+![Tela de Favoritos](https://github.com/joaoygo/biblioteca_desafio/blob/main/prints/tela_favoritos.png)
+
+## Recursos
+
+- Tela Inicial
+- Listagem de Favoritos
+
 ### Passo 1: Clone o Repositório
 
 Abra o terminal e execute o seguinte comando para clonar o repositório:
@@ -25,4 +35,15 @@ cd biblioteca_desafio
 ```
 flutter run
 ```
+
+## Dependências
+Principais dependências utilizadas no projeto:
+
+    path_provider: ^2.0.15
+    http: ^1.1.0
+    vocsy_epub_viewer: ^2.0.0
+    dio: ^5.3.4
+    permission_handler: ^11.1.0
+    device_info_plus: ^9.1.1
+    shared_preferences: ^2.2.2
 
