@@ -71,6 +71,13 @@ class CardBooksWidget extends StatelessWidget {
             fontWeight: FontWeight.w500,
           ),
         ),
+        Text(
+          autor,
+          style: const TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
       ],
     );
   }
