@@ -1,4 +1,4 @@
-# Projeto Flutter Exemplo
+# Projeto Flutter Utilizando Lib solicitada para teste tec
 
 Este é um projeto Flutter simples de uma Biblioteca virtual onde é possível baixar, ler livros e marcar seus livros favoritos.
 
